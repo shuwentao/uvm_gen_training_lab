@@ -1,0 +1,25 @@
+UVM Version : 2 
+Complete Env.(1) OR Individual Template(2)? : 1 
+Want to create your own methods[Instead of uvm shorthand macros]? : n 
+RAL env? : 0 
+Env. Name : top_env 
+Agents? : y 
+Name of master agent:  : my_mst_agent 
+Name of sequencer in my_mst_agent master agent:  : my_mst_sequencer 
+Name of driver in my_mst_agent master agent:  : my_mst_driver 
+Name of monitor in my_mst_agent master agent:  : my_mst_monitor 
+Name of interface related to my_mst_agent master agent:  : my_mst_interface 
+Name of transaction in my_mst_agent master agent:  : my_mst_transaction 
+BU class for this transaction? : n 
+Name of slave agent:  : my_slave_agent 
+Name of sequencer in my_slave_agent slave agent:  : my_slave_sequencer 
+Name of driver in my_slave_agent slave agent:  : my_slave_driver 
+Name of monitor in my_slave_agent slave agent:  : my_slave_monitor 
+Name of physical interface related to my_slave_agent slave agent:  : my_slave_interface 
+Name of transaction related to my_slave_agent slave agent:  : my_mst_transaction 
+Driver information for the slave agent my_slave_agent :  :  
+Driver Type : Driver, PULL DRIVER (uvm_driver) 
+Driver information for the master agent my_mst_agent :  :  
+Driver Type : Driver, PULL DRIVER (uvm_driver) 
+Scoreboard? : y 
+Name of Scoreboard Class : my_scb 
